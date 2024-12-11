@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  color: #FFFFFF;
+  background: #037143;
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  align-self: flex-start;
+  cursor: pointer;
+}

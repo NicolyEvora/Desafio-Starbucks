@@ -1,0 +1,45 @@
+.caixaDaHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+}
+
+nav {
+  width: 30%;
+  padding-right: 5%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+li a {
+  color: #1E3932;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+@media (max-width: 1000px) {
+  nav{
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 600px) {
+  nav{
+    width: 60%;
+  }
+
+  li a {
+    font-size: 0.8rem;
+  }
+
+  img {
+    width: 15%;
+  }
+}

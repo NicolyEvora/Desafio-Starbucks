@@ -1,0 +1,55 @@
+.sobre {
+  display: flex;
+  padding: 2% 0%;
+  width: 100%;
+  align-items: center;
+}
+
+.imagemLoja {
+  width: 35%;
+  padding-left: 10%;
+}
+
+.textosSobre {
+  padding: 10%;
+  width: 70%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #1e3932;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .sobre {
+    display: block;
+  }
+
+  .imagemLoja {
+    width: 70%;
+    padding-left: 20%;
+  }
+
+  .textosSobre {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+}

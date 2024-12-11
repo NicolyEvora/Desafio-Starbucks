@@ -1,0 +1,105 @@
+.home {
+  display: flex;
+  padding: 2% 0%;
+  width: 100%;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+
+.textosHome {
+  padding: 2% 8%;
+  width: 50%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #1e3932;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+span {
+  color: #037143;
+  font-weight: 800;
+}
+
+.botoesCopinhos {
+  display: flex;
+  width: 280px;
+  justify-content: end;
+  height: 16%;
+  align-self: flex-end;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  margin-bottom: 30px;
+
+  img:hover {
+    transform: translateY(-7px);
+    rotate: 15deg;
+    transition: 0.1s;
+  }
+}
+
+.fundoVerde {
+  background-color: #037143;
+}
+
+.fundoVermelho {
+  background-color: #97090c;
+}
+
+.fundoAmarelo {
+  background-color: #decd13;
+}
+
+#ciculoCores {
+  display: flex;
+  border-radius: 50%;
+  position: fixed;
+  top: 30%;
+  left: 60%;
+  width: 70%;
+  aspect-ratio: 1;
+  z-index: -1;
+
+  img {
+    position: absolute;
+    bottom: 55%;
+    right: 50%;
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .home {
+    display: block;
+  }
+
+  .textosHome {
+    width: 100%;
+  }
+
+  #ciculoCores {
+    position: relative;
+  }
+
+  .botoesCopinhos {
+    width: 500px;
+    justify-content: start;
+    height: 10%;
+    padding-left: 10%;
+  }
+}
