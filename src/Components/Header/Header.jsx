@@ -9,7 +9,7 @@ export default function Header() {
             
             <nav>
                 <ul>
-                    <li><Link to="/Home">Home</Link></li>
+                    <li><Link to="/">Home</Link></li>
                     <li><Link to="/Novidades">Novidades</Link></li>
                     <li><Link to="/Sobre">Sobre</Link></li> 
                 </ul>
